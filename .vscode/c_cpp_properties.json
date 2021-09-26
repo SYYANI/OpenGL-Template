@@ -5,7 +5,8 @@
             "includePath": [
                 "C:/MinGW/bin/**",
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/include",
+                "C:/MinGW/include/GL"
             ],
             "defines": [
                 "_DEBUG",
