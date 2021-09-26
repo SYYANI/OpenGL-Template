@@ -1,0 +1,1 @@
+OpenGL's environment for VisualStudio Code on Windows 10.
