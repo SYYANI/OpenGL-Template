@@ -25,10 +25,10 @@ INCLUDE	:= include
 
 # define lib directory
 LIB		:= lib
-Libraries := -lglfw3dll -lglew32s -lglew32 -lglfw3 -lopengl32 -lfreeglut -lglu32
+Libraries := -lglfw -framework OpenGL -framework GLUT
 
 ifeq ($(OS),Windows_NT)
-MAIN	:= main.exe
+MAIN	:= main
 SOURCEDIRS	:= $(SRC)
 INCLUDEDIRS	:= $(INCLUDE)
 LIBDIRS		:= $(LIB)
