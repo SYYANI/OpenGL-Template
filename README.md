@@ -1,0 +1,1 @@
+OpenGL's environment for Visual Studio Code on macOS.
